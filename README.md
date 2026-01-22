@@ -4,7 +4,7 @@ A supervised machine learning project to predict customer churn based on demogra
 
 ---
 
-## 📚 About the Dataset
+## About the Dataset
 
 **Source:** Kaggle Dataset
 Each row in the dataset represents a unique customer, and each column contains attributes related to customer demographics, services subscribed, and account information.
@@ -17,7 +17,7 @@ Each row in the dataset represents a unique customer, and each column contains a
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 To analyze customer data and build machine learning models that can:
 - Predict the likelihood of a customer churning
@@ -25,7 +25,7 @@ To analyze customer data and build machine learning models that can:
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 - **Churn Distribution:**
   - Customers Not Churned: `5174`
@@ -40,17 +40,17 @@ This indicates that around **26.5%** of customers in the dataset churned, highli
 
 ---
 
-## 🧠 Model Building
+## Model Building
 
 Multiple models were tested. The final model was trained using a **Random Forest Classifier** due to its superior performance in handling imbalanced data and feature importance ranking.
 
-### 📊 Confusion Matrix
+### Confusion Matrix
 Confusion Matrix:
 [[939  94]
  [193 181]]
 
 
-### ✅ Evaluation Metrics
+### Evaluation Metrics
 
 | Metric         | Class 0 (Not Churned) | Class 1 (Churned) |
 |----------------|-----------------------|--------------------|
@@ -64,7 +64,7 @@ Confusion Matrix:
 
 ---
 
-## 💡 Business Insights
+## Business Insights
 
 - **Customer Retention Risk:** Nearly 1 in 4 customers are at risk of churn, with strong indicators being short tenure, monthly contracts, and high billing charges.
 - **Loyalty Indicators:** Long-term contracts, additional services (security, tech support), and lower monthly costs contribute to customer retention.
@@ -75,7 +75,7 @@ Confusion Matrix:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Languages & Libraries:** Python, Pandas, NumPy, Seaborn, Scikit-learn, Matplotlib
 - **Environment:** Jupyter Notebook
